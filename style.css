@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
 a{
     text-decoration: none;
     font-size: 10px;
 }
 
+/* .content-box{
+    justify-content: center;
+    background-color: #e9e9e9;
+} */
+
 .grid-container{
     display: grid;
     max-width: 960px;
     grid-template-areas: 'auto auto auto auto';
-    column-gap: 12px;
-    row-gap: 12px;
-}
-
-.grid-container div{
-    text-align: center;
-    color: white;
-    padding: 10px;
-    border: 1px solid black;
+    column-gap: 6px;
+    row-gap: 6px;
 }
 
 .item1{
@@ -25,13 +29,17 @@ a{
 .item2{
     grid-column: 1 / 5;
     background: url(https://images.pexels.com/photos/916344/pexels-photo-916344.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    height: 400px;
-    position: no-repeat;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    background-color: blanchedalmond;
 }
 
 .item3{
     grid-column: 1 / 5;
     background-color: pink;
+    color: white;
     font-size: 25px;
     text-align: center;
 }
@@ -39,91 +47,170 @@ a{
 .item4{
     grid-column: 1 / 3;
     background: url(https://images.pexels.com/photos/2876035/pexels-photo-2876035.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-position-y: 0px;
+    background-position-x: -50px;
+    width: 480px;
     height: 350px;
 }
 
 .item5{
     grid-column: 3 / 5;
     background: url(https://images.pexels.com/photos/1913161/pexels-photo-1913161.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-position-y: -150px;
+    background-position-x: -20px;
+    width: 480px;
     height: 350px;
 }
 
 .item6{
     grid-column: 1 / 3;
     background: url(https://images.pexels.com/photos/3214241/pexels-photo-3214241.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-position-y: 0px;
+    background-position-x: -150px;
+    width: 480px;
     height: 350px;
 }
 
 .item7{
     grid-column: 3 / 5;
     background: url(https://images.pexels.com/photos/8058602/pexels-photo-8058602.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    width: 468px;
+    background-position-y: -15px;
+    background-position-x: -20px;
+    width: 480px;
     height: 350px;
 }
 
 .item8{
     grid-column: 1 / 3;
     background: url(https://images.pexels.com/photos/3891029/pexels-photo-3891029.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-size: contain;
+    background-size: 120%;
+    width: 480px;
     height: 350px;
 }
 
 .item9{
     grid-column: 3 / 5;
     background: url(https://images.pexels.com/photos/94843/pexels-photo-94843.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-size: contain;
+    background-size: 120%;
+    width: 480px;
     height: 350px;
 }
 
 .item10{
     grid-column: 1 / 3;
     background: url(https://images.pexels.com/photos/1191536/pexels-photo-1191536.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-position-y: -200px;
+    background-position-x: 0px;
+    width: 480px;
     height: 350px;
 }
 
 .item11{
     grid-column: 3 / 5;
     background: url(https://images.pexels.com/photos/2735970/pexels-photo-2735970.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-position-y: -200px;
+    background-position-x: -100px;
+    width: 480px;
     height: 350px;
 }
 
 .item12{
     grid-column: 1 / 3;
     background: url(https://images.pexels.com/photos/3794119/pexels-photo-3794119.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-position-y: -150px;
+    background-position-x: -20px;
+    width: 480px;
     height: 350px;
 }
 
 .item13{
     grid-column: 3 / 5;
     background: url(https://images.pexels.com/photos/380782/pexels-photo-380782.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-position-y: -230px;
+    background-position-x: -20px;
+    width: 480px;
     height: 350px;
 }
 
 .item14{
     grid-column: 1 / 3;
     background: url(https://images.pexels.com/photos/1050244/pexels-photo-1050244.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-size: contain;
+    background-size: 120%;
+    width: 480px;
     height: 350px;
 }
 
 .item15{
     grid-column: 3 / 5;
     background: url(https://images.pexels.com/photos/265906/pexels-photo-265906.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-    width: 468px;
+    background-size: contain;
+    background-size: 130%;
+    background-position-y: 0px;
+    background-position-x: -90px;
+    width: 480px;
     height: 350px;
+}
+
+.item16{
+    color: black;
+}
+
+.item17{
+    color: black;
+}
+
+.item18{
+    color: black;
+    min-width: 200px;
+}
+
+.item19{
+    color: black;
+}
+
+.item19 img{
+    margin-left: 40px;
+    width: 200px;
+    height: 140px;
+}
+
+.item20{
+    color: black;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.item27{
+    font-weight: bold;
+    padding-right: 300px;
+}
+
+.free{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.item16 .item17 .item18 .item19 {
+    color: black;
+    list-style-type: none;
+    height: 600px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
 }
 
 .container{
     display: grid;
     grid-template-areas: 'auto auto auto auto auto auto auto auto';
-    background-color: white;
+    background-color: #e9e9e9;
+    text-align: center;
 }
 
 .container a:hover{
@@ -134,49 +221,13 @@ a{
     color: grey;
 }
 
-
-.item16{
-    color: black;
-    font-weight: bold;
-    padding-right: 100px;
+hr{
+    border-color: #e9e9e9;
 }
 
-.item17{
-    background: url(https://images.pexels.com/photos/2697608/pexels-photo-2697608.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 240px;
+    font-size: 40px;
 }
-
-.item18{
-
-}
-
-.item19{
-
-}
-
-.item20{
-
-}
-
-.item21{
-
-}
-
-.item22{
-
-}
-
-.item23{
-    font-weight: bold;
-    padding-right: 300px;
-}
-
-.free{
-    font-weight: bold;
-    font-size: 30px;
-   
-}
-
-/* .item17 .item18 .item19 .item20 .item21 .item22{
-    font-size: 15px;
-} */
