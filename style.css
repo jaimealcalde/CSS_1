@@ -1,17 +1,23 @@
+.content-box{
+    max-width: 960px;
+    border:1px solid  grey;
+}
+
+a{
+    text-decoration: none;
+}
+
 .grid-container{
     display: grid;
-    background-color: aquamarine;
     grid-template-areas: 'auto auto auto auto';
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 12px;
+    row-gap: 12px;
 }
 
 .grid-container div{
-    background-color: blueviolet;
     text-align: center;
     color: white;
     padding: 10px;
-    border: 1px solid black;
 }
 
 .item1{
@@ -73,4 +79,52 @@
 
 .item15{
     grid-column: 3 / 5;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 'auto auto auto auto auto auto auto auto';
+    background-color: white;
+}
+
+.container a:hover{
+    color: grey;
+}
+
+.container a:link{
+    color: grey !important;
+}
+
+
+.item16{
+    color: black;
+    font-weight: bold;
+}
+
+.item17{
+    
+}
+
+.item18{
+
+}
+
+.item19{
+
+}
+
+.item20{
+
+}
+
+.item21{
+
+}
+
+.item22{
+
+}
+
+.item23{
+    font-weight: bold;
 }
