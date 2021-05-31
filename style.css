@@ -1,0 +1,79 @@
+.content_wrapper {
+ border: 2px solid black; 
+margin: auto; 
+}
+
+ /* HEADER */
+
+.header {
+ display: grid;
+ grid-template-columns: 20% 80%;
+ border: 2px solid green;
+ background-color:#E9E9E9 ;
+}
+
+.logo {
+ 
+ align-items
+ border: 2px solid brown;
+ padding: 1em;
+}
+
+.navigation_menu {
+ display: grid;
+ grid-template-columns: repeat(9,1fr);
+ border: 2px solid rgb(0, 109, 128);
+ padding: 1em;
+}
+
+
+ /* MAIN CONTENT */
+
+.main_content {
+ border: 2px solid salmon;
+ text-align: center;
+ 
+ 
+}
+
+ .promo_banner {
+  border: 2px solid red;
+ }
+ .main_image {
+  height: 400px;
+  background-image: url(assets/pexels-pok-rie-2049422.jpg);
+  background-size: cover;
+ }
+
+ .banner_promo40 {
+  background-color: salmon;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+ } 
+
+ /* Shop Display */
+
+ .shop {
+  border: 2px solid yellowgreen;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5px;
+  
+ }
+
+ .shop > div {
+  background-color: sandybrown;
+  height: 300px;
+  
+ }
+
+
+ /* FOOTER */
+
+.footer {
+ border: 2px solid blue;
+}
+ 
+.footer_nav_bar {}
