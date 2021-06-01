@@ -226,4 +226,111 @@ h1{
 
 .item5 h1{
     margin-top: 90px;
+    display: grid;
+    width: 100%;
 }
+
+/* page 2 */
+.principal-content{
+    display: grid;
+    grid-template-areas: 'auto auto auto auto auto auto auto auto';
+    column-gap: 6px;
+    row-gap: 6px;
+    margin: auto;
+}
+
+.header-content{
+    display: grid;
+    grid-template-areas: 'auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto';
+    column-gap: 6px;
+    row-gap: 6px;
+}
+
+.logo{
+    grid-column: 1/5;
+    text-align: left;
+}
+
+.header7{
+    grid-column: 12/23;
+}
+
+.title{
+    grid-column: 1/9;
+    max-height: 50px;
+}
+
+.title h1{
+    color: black;
+    margin-top: -100px;
+}
+
+.principal-image{
+    grid-column: 1/9;
+    background-image: url(https://images.pexels.com/photos/1338130/pexels-photo-1338130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    max-height: 350px;
+}
+
+.principal-image h1{
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.ask1{
+    grid-column: 1/4;
+    border-right: 2px solid rgb(9, 211, 2);
+    font-weight: bold;
+}
+
+.reponse1{
+    grid-column: 4/9;
+}
+
+.ask2{
+    grid-column: 1/4;
+    border-right: 2px solid rgb(9, 211, 2);
+    font-weight: bold;
+}
+
+.response2{
+    grid-column: 4/9;
+}
+
+.ask3{
+    grid-column: 1/4;
+    border-right: 2px solid rgb(9, 211, 2);
+    font-weight: bold;
+}
+
+.response3{
+    grid-column: 4/9;
+}
+
+.ask4{
+    grid-column: 1/4;
+    border-right: 2px solid rgb(9, 211, 2);
+    font-weight: bold;
+}
+
+.response4{
+    grid-column: 4/9;
+}
+
+.we{
+    grid-column: 1/3;
+}
+
+.jewels{
+    grid-column: 3/5;
+}
+
+.present{
+    grid-column: 5/7;
+}
+
+.confidence{
+    grid-column: 7/9;
+    max-width: 250px;
+}
+
