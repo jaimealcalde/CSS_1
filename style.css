@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-
-
 body {
  font-family: 'Playfair Display', serif;
  max-width: 960px;
@@ -11,7 +9,7 @@ body {
 margin: auto; 
 }
 
- /* HEADER */
+ /* HEADER  GRID*/ 
 
 .header {
  display: grid;
@@ -19,24 +17,24 @@ margin: auto;
  background-color:#E9E9E9 ;
 }
 
-.logo {
- padding: 1em;
+
+.logo_img {
+ height: 40px;
+ width: 90px;
 }
 
 .navigation_menu {
  display: grid;
  grid-template-columns: repeat(7,1fr);
- font-size: 12px;
+ font-size: 10px;
  text-align: center;
  padding-right: 100px;
- padding-top: 20px;
+ padding-top: 20
  gap: 10px;
-
- 
 }
 
 
- /* MAIN CONTENT */
+ /* MAIN CONTENT GRID */
 
 .main_content {
  text-align: center;
@@ -45,168 +43,160 @@ margin: auto;
  gap: 5px;
 }
 
-.main_image {
- height: 500px;
- background-image: url(https://images.pexels.com/photos/1338130/pexels-photo-1338130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
- background-size: cover;
- background-repeat: no-repeat;
- background-position: center;
+ /* GRID FOR FIRST SECTION */
 
-}
+  .main_image {
+   height: 500px;
+   background-image: url(https://images.pexels.com/photos/1338130/pexels-photo-1338130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
 
- .promo_banner {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 5px;
-  font-size: 40px;
-  color: black;
- }
-
- .banner_promo40 {
-  background-color: #F6C6C2;;
-  padding-top: 20px;
-  padding: 20px 0px 20px 0px;
- } 
- 
- /* Shop Display */
- 
- .shop {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 5px;
-  font-size: 40px;
-  color: white;
- }
-
- .shop > div {
-  background-color: sandybrown;
-  max-height: 468px;
-  
-
-  
- }
-
- .Top_seller {
-  background-image: url(https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: bottom;
-  padding-top: 220px;
-
-  
   }
 
- .new_in {
-  background-image: url(https://images.pexels.com/photos/1716539/pexels-photo-1716539.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
- background-size: cover;
- background-position: center;
- padding-top: 180px;
+   .promo_banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    font-size: 40px;
+    color: black;
+   }
 
- }
+   .banner_promo40 {
+    background-color: #F6C6C2;;
+    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
+   } 
 
-p {
- font-size: 15px;
- padding-bottom:40px;
-}
+   /* GRID FOR SHOP: SECOND SECTION */
+   
+   .shop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    font-size: 40px;
+    color: white;
+   }
 
- .Earrings {
-  background-image: url(https://images.pexels.com/photos/7383107/pexels-photo-7383107.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: center;
-  padding-top: 220px;
+   .shop > div {
+    max-height: 468px;
+   }
 
- }
- .Loose_Earrings {
-  background-image:url(https://images.pexels.com/photos/210645/pexels-photo-210645.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: center;
-  padding-top: 220px;
+   .Top_seller {
+    background-image: url(https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 220px;
+    }
 
- }
- 
- .Collars {
-  background-image: url(https://images.pexels.com/photos/1454171/pexels-photo-1454171.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: bottom;
-  padding-top: 220px;
-
- }
-
- .Rings {
-  background-image: url(https://images.pexels.com/photos/567952/pexels-photo-567952.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: center;
-  padding-top: 220px;
-
- }
- 
-
- .Bracelets {
-  background-image:url(https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: center;
-  padding-top: 220px;
-
- }
-
- .Céline_Diamonds { 
-  background-image:url(https://images.pexels.com/photos/3474504/pexels-photo-3474504.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  padding-top: 220px;
-  color: black;
-
- }
-
-  .Custom_jewelry {
-   background-image:url(https://images.pexels.com/photos/185489/pexels-photo-185489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+   .new_in {
+    background-image: url(https://images.pexels.com/photos/1716539/pexels-photo-1716539.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
    background-size: cover;
    background-position: center;
-   padding-top: 220px;
+   padding-top: 150px;
+   }
 
+  p {
+   font-size: 10px;
+   padding-bottom:40px;
   }
- 
 
- .Watches {
-  background-image:url(https://images.pexels.com/photos/157627/watch-fashion-accessories-clothes-157627.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: bottom;
-  padding-top: 220px;
- }
+   .Earrings {
+    background-image: url(https://images.pexels.com/photos/7383107/pexels-photo-7383107.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
+   }
 
- .Shops {
-  background-image:url(https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: center;
-  color: black;
-  padding-top: 220px;
+   .Loose_Earrings {
+    background-image:url(https://images.pexels.com/photos/210645/pexels-photo-210645.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
+   }
+   
+   .Collars {
+    background-image: url(https://images.pexels.com/photos/1454171/pexels-photo-1454171.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 220px;
 
- }
+   }
 
- .Shop_the_Look {
-  background-image:url(https://images.pexels.com/photos/3064352/pexels-photo-3064352.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
-  background-position: center;
-  padding-top: 220px;
+   .Rings {
+    background-image: url(https://images.pexels.com/photos/567952/pexels-photo-567952.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
 
- }
+   }
+   
+
+   .Bracelets {
+    background-image:url(https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
+
+   }
+
+   .Céline_Diamonds { 
+    background-image:url(https://images.pexels.com/photos/3474504/pexels-photo-3474504.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    padding-top: 220px;
+    color: black;
+
+   }
+
+    .Custom_jewelry {
+     background-image:url(https://images.pexels.com/photos/185489/pexels-photo-185489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+     background-size: cover;
+     background-position: center;
+     padding-top: 220px;
+
+    }
+   
+
+   .Watches {
+    background-image:url(https://images.pexels.com/photos/157627/watch-fashion-accessories-clothes-157627.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 220px;
+   }
+
+   .Shops {
+    background-image:url(https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding-top: 220px;
+
+   }
+
+   .Shop_the_Look {
+    background-image:url(https://images.pexels.com/photos/3064352/pexels-photo-3064352.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
+
+   }
+
+   h6 {
+    font-size: 20px;
+   }
 
 
- /* FOOTER */
+ /* FOOTER GRID */
 
-.footer {
- display: grid;
- grid-template-columns: 1fr;
- padding-bottom: 50px;
-}
- 
+
+/* GRID FOR NAV */
 .footer_nav_bar {
  display: grid;
  grid-template-columns: 20% 20% 20% 20%;
  gap: 50px;
+ padding-bottom: 50px;
 }
 
-hr {
-
-}
 
 li {
  list-style-type: none;
@@ -218,4 +208,48 @@ a:link {
 }
 a:hover {
  color: black;
+}
+
+a:visited {
+ color: currentColor}
+
+
+/* Earrings Category Page Specific CSS*/
+
+.earrings_head_banner {
+ background-image: url(https://images.pexels.com/photos/1229182/pexels-photo-1229182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+ background-size: cover;
+ background-position: center;
+ text-align: left;
+ padding: 1em 0em 0.5em 1em;
+ color: white;
+ font-size: 45px;
+}
+
+/* GRID FOR SHOP */
+
+.earrings_shop_display {
+display: grid;;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+text-align: center;
+padding: 50px;
+}
+
+
+.categories {
+ color: grey;
+ background-color: rgb(255, 184, 176);
+ padding: px;
+ text-align: center;
+ margin: 20px 350px;
+
+ 
+} 
+
+.categories a:link {
+ color: grey;
+}
+
+.categories a:visited {
+ color: rgb(136, 136, 177);
 }
