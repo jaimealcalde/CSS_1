@@ -395,9 +395,9 @@ h1{
     grid-template-areas: 'auto auto auto auto';
 }
 
-.product-content div{
-    border: 1px solid black;       
-}
+/* .product-content div{
+    border: 1px solid black;
+} */
 
 .heading1{
     grid-column: 1/5;
@@ -409,6 +409,9 @@ h1{
 
 .title1 h3{
     text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .reverse{
@@ -419,7 +422,6 @@ h1{
 .reverse p{
     text-align: center;
     background-color: palevioletred;
-    /* background-size: 20px; */
 }
 
 .more{
@@ -463,8 +465,35 @@ h1{
     list-style-type: square;
 }
 
+.button1 .center{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.button1 .center1{
+    font-size: 14px;
+}
+
+.button1 img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.button1 .text{
+    font-size: 12px;
+}
+
+.image1 .image2{
+    max-width: 150px;
+    max-height: 150px;
+}
+
 .title-content{
     grid-column: 1/5;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .title-content p{
@@ -473,38 +502,28 @@ h1{
 
 .content-image{
     grid-column: 1/5;
-    
 }
 
 .content-image1 p{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .content-image2 p{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .content-image3 p{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .content-image4 p{
     text-align: center;
-}
-
-.we1{
-    
-}
-
-.jewels1{
-    
-}
-
-.present1{
-    
+    margin-bottom: 100px;
 }
 
 .confidence1{
-    
-    max-width: 260px; 
+    max-width: 260px;
 }
