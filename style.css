@@ -343,9 +343,14 @@ h6 {
 .opinion_and_return {
 list-style-position: inside;
 list-style-type: none;
+margin-bottom: 60px;
 }
 
 .opinion_and_return li:before {
  content:"+";
  padding-right: 120px;
+}
+
+.related_products{
+display: flex;
 }
